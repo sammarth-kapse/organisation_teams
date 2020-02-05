@@ -37,7 +37,7 @@ def get_single_data_from_github_api(url):
 
 
 def get_response_from_github_api(url):
-    token = 'ebd9f3152b0e3d308c52e4ae54f1993674a9d25f'
+    token = '5f682f5cc3dd7069ae351a52ddc7297e8858e02a'
     headers = {'Authorization': 'token ' + token}
 
     response = requests.get(url, headers=headers)

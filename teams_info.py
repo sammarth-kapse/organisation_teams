@@ -18,8 +18,7 @@ def get_team_members(organisation, team_slug):
     members_data = get_data_collection_from_github_api(url)
     members = []
     for data in members_data:
-        info = {DEVELOPER: data[LOGIN]}
-        members.append(info)
+        members.append(data[LOGIN])
 
     return members
 

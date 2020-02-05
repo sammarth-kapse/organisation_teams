@@ -3,39 +3,29 @@
         "team": "A",
         "parent": null,
         "members": [
-            {
-                "developer": "sammarth-kapse"
-            },
-            {
-                "developer": "dilipchauhan14"
-            }
+            "sammarth-kapse",
+            "dilipchauhan14"
         ]
     },
     {
         "team": "B",
         "parent": "A",
         "members": [
-            {
-                "developer": "sammarth-kapse"
-            }
+            "sammarth-kapse"
         ]
     },
     {
         "team": "C",
         "parent": "B",
         "members": [
-            {
-                "developer": "sammarth-kapse"
-            }
+            "sammarth-kapse"
         ]
     },
     {
         "team": "D",
         "parent": "A",
         "members": [
-            {
-                "developer": "dilipchauhan14"
-            }
+            "dilipchauhan14"
         ]
     }
 ]

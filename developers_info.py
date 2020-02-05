@@ -20,9 +20,9 @@ def map_developer_to_teams_hierarchy(url, organisation):
     for team in teams_data:
         team_members = get_team_members(organisation, team[SLUG])
         for member in team_members:
-            if member[DEVELOPER] not in developers_info_map:
-                developers_info_map[member[DEVELOPER]] = [team[NAME]]
+            if member not in developers_info_map:
+                developers_info_map[member] = [team[NAME]]
             else:
-                developers_info_map[member[DEVELOPER]].append(team[NAME])
+                developers_info_map[member].append(team[NAME])
 
     return developers_info_map
